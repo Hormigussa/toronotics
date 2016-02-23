@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<code>
-@version 1.0.1
-@date 23/02/2016 
-</code>
+
 <html>
 <head>
 <title></title>
 </head>
 <style>
+.container {
+	position: relative;
+	}
+	
+.topleft {
+	position: absolute;
+	font-size: 18px;
+	top: 5px;
+	left: 16px;
+	}
 
-div.heads {
-    background-color:black;
-    color: white;
-    margin: 20px0px;
-    padding: 20px;
+
+div.left {
+	position: relative;
+	left: 10px;
+	right: 300px
+	}
+
+	div.right {
+	position: relative;
+	left: 500px;
+	
+	}
+	
+	div.siteTitle {
+  
 	font-family: Haettenschweiler;
 	font-size: 200%;
 }
 
-div.fontz {
+div.fontext {
 	font-family:Sansation;
 	text-align: ;
 }
@@ -26,15 +43,26 @@ div.fontz {
 </style>
 <body>
 
+
 <h1>
-
-<div class="heads">AERONAUTICAL.TZ.COM </div>
-
+<div class="topleft">
+AERONAUTICAL.TZ.COM </div>
 </h1>
-<p><div class="fontz"> This is an organisation formed in a dorm room
+
+<p><div class="right"> <div class="fontext"> This is an organisation formed in a dorm room
  in shenyang aerospace university that has an ultimate goal to change both 
  aeronautical field in Tanzania and impact new ways of thinking to the Tanzanian youth
- in an effort to create a better nation under "HAPA KAZI TU" philosophy</div>
+ in an effort to create a better nation under "HAPA KAZI TU" philosophy</div></div><br><br>
 
+<div class ="fontext">
+ <div class="left">
+ Some text to test out this relative arttribute
+ </div>
+ </div>
 </body>
 </html>
+<br><br><br>
+<code>
+@version 1.0.1 &nbsp
+@date 23/02/2016 
+</code>
