@@ -1,14 +1,80 @@
-
-div.heads {
-    background-color:black;
-    color: white;
-    margin: 20px0px;
-    padding: 20px;
-	font-family: Haettenschweiler;
-	font-size: 200%;
+body {
+    margin:0px;
+}
+#container {
+    width: 1350px;
+}
+.Layout {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Metrophobic', Arial, serif;
+    font-weight: 400;
 }
 
-div.fontz {
-	font-family:Sansation;
-	text-align: ;
+#divHeader {
+    height:63px;
+    overflow:hidden;
+}
+
+#divEmblem {
+    height:50px;
+    width:265px;
+    float:left;
+    border: 2px solid;
+    margin:7px 0px 0px 10px;
+}
+.Inlinelist {
+    margin: 0px;
+    padding: 0px;
+    font-size:23px;
+    margin-left:125px;
+    list-style: none;
+}
+
+.Inlinelist li {
+    display: inline-block;
+    margin:0px 20px;
+    text-align:center;
+}
+
+a{
+    text-decoration:none
+}
+
+#divNav{
+     /*height:30px;*/
+     width: 900px;
+     display: inline-block;
+     margin:35px 70px 0px 0px;
+}
+#divTorso {
+    margin:0px 0px;
+}
+
+#divImage {
+    height: 557px;
+    width: 334px;
+    margin-left:2px;
+    border-radius:3px;
+    border:2px solid ;
+    display: inline-block;
+}
+
+#divContent {
+    height:557px;
+    width:1002px;
+    display:inline-block;
+    border:2px solid;
+    border-radius:3px;
+}
+
+#divFooter {
+    height:15px;
+    padding: 10px 0px;
+    text-align: center;
+    background-color:brown;
+}
+#divSocial {
+    
 }
